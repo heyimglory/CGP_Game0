@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game0: Shepherd Dog - Design Document</title>
+</head>
+<body>
+
+<h1>Game0: Shepherd Dog - Design Document</h1>
+
+<p>"Shepherd Dog" is a single-player game playing with mouse only. In this game, the player will play as a shepherd dog, controling its position by moving the mouse. Try to prevent any of the five sheep from escaping from the designated area!</p>
+
+<h2>Gameplay</h2>
+
+<div style="text-align:center">
+<img src="start.png" width="350" height="350"/>
+</div>
+<p>At the beginning of each round, the sheep and the shepherd dog will be at the positions shown above.</p>
+
+<div style="text-align:center">
+<img src="clicked.png" width="350" height="350"/>
+</div>
+<p>After the player clicks, the sheep start moving into one of the four directions randomly.</p>
+
+<div style="text-align:center">
+<img src="collide.png" width="350" height="350"/>
+<img src="collide_change.png" width="350" height="350"/>
+</div>
+<p>If the sheep collide into eachother, they change their moving directions to the opposite ways of the collision.</p>
+
+<div style="text-align:center">
+<img src="touch.png" width="350" height="350"/>
+<img src="touch_change.png" width="350" height="350"/>
+</div>
+<p>If the shepherd dog touches a sheep, the sheep changes its moving direction to the opposite way of the previous.</p>
+
+<div style="text-align:center">
+<img src="game_over.png" width="350" height="350"/>
+</div>
+<p>If any of the sheep touches the brown square, the shepherd dog fails its mission and the game ends. The score according to the time the player survived will be displayed and a another new round starts after a click.</p>
+
+<h2>Note: Sheep Speed</h2>
+<p>The speed of the sheep gradually increases as the time passes.</p>
+
+</body>
+</html>
